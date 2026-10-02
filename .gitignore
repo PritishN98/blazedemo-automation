@@ -1,0 +1,28 @@
+# Compiled class file
+target/
+bin/
+
+# Log and temporary files
+*.log
+*.tmp
+
+# TestNG outputs
+test-output/
+
+# Extent Reports & Screenshots generated during test runs
+TestReport/*.html
+Screenshots/*.png
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store

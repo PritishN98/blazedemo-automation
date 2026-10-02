@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo Automation Test Suite" verbose="1">
+
+    <parameter name="browser" value="chrome" />
+
+    <listeners>
+        <listener class-name="com.blazedemo.utils.TestListener" />
+    </listeners>
+
+    <test name="All BlazeDemo End-to-End Tests">
+        <classes>
+            <class name="com.blazedemo.tests.SmokeTest" />
+            <class name="com.blazedemo.tests.FlightBookingTest" />
+            <class name="com.blazedemo.tests.DataDrivenBookingTest" />
+            <class name="com.blazedemo.tests.NegativeBookingTest" />
+        </classes>
+    </test>
+
+</suite>
